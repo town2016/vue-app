@@ -1,4 +1,4 @@
-# test 随缘写代码，被日过的人都说好
+# test 有需要的 star之后 get
 
 > A Vue.js project
 

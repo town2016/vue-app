@@ -1,0 +1,149 @@
+/*全局样式*/
+@import 'mixin';
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #ffffff;
+  color: #4e4e4e;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  font-family: PingFangSC-Regular;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.app-page-root {
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: .45rem;
+}
+.body-content{
+  background-color: #ffffff;
+}
+.full-content {
+  width: 100%;
+  height: 100%;
+}
+.marginTop10 {
+  margin-top: .1rem;
+}
+.marginTop13 {
+  margin-top: .13rem;
+}
+.marginTop20 {
+  margin-top: .20rem;
+}
+.marginTop25 {
+  margin-top: .25rem;
+}
+input::-webkit-input-placeholder {
+  color:#999999;
+}
+input:-moz-placeholder {
+  color:#999999;
+}
+input::-moz-placeholder {
+  color:#999999;
+}
+input:-ms-input-placeholder {
+  color:#999999;
+}
+.backGroundMain {
+  background-color: #f6f6f6;
+}
+.home_title {
+  font-size: .34rem;
+  color: #000000;
+  line-height: .34rem;
+  margin-bottom: .08rem;
+}
+.demo-flat-button {
+  height: .45rem;
+  line-height: .45rem;
+  color: white;
+  font-size: .16rem;
+  margin-top: .25rem;
+  border-radius: .22rem;
+  text-align: center;
+  background-color: #41bdc7;
+}
+.demo-flat-button.active:active {
+  background-color: #41bdc7a6;
+}
+.disabled {
+  background-color: #dbdbdb;
+  color: #ffffff;
+}
+.flex-double-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-space-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainColor {
+  color:#41bdc7;
+}
+ul,li{
+    list-style: none;
+}
+div.isActive:active {
+  background-color: #fafafa;
+}
+.border-bottom {
+  border-bottom:1px solid #dbdbdb;
+}
+.noShadow{
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-window-shadow: none !important;
+}
+
+.pd20{
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+input{
+    outline: none;
+}
+
+.fixedBtn{
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    background-color: @mainColor;
+    text-align: center;
+    color: #fff;
+    font-size: 0.17rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
